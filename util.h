@@ -1,5 +1,9 @@
 #ifndef _UTIL_H_   //header file guard 
 #define _UTIL_H_
+/*
+This Header file is developed by Mohamed Shehab 
+Embedded software engineer at Roots Solutions 
+*/
 
 #define GET_BIT(Reg , bit)           (Reg & (1<<bit))>> bit   
 #define CLR_BIT(Reg , bit )           Reg &=~(1<<bit)             // need it more optimized
